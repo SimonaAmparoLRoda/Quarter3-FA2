@@ -51,11 +51,11 @@ function calculate(operation) {
       break;
     case '/':
       result = div(num1, num2);
-      message = typeof result === "string" ? result : `The quotient of ${num1} and ${num2} is ${result}.`;
+      message = `The quotient of ${num1} and ${num2} is ${result}.`;
       break;
     case '%':
       result = mod(num1, num2);
-      message = typeof result === "string" ? result : `The remainder of ${num1} divided by ${num2} is ${result}.`;
+      message = `The remainder of ${num1} divided by ${num2} is ${result}.`;
       break;
     default:
       message = "Invalid operation.";
